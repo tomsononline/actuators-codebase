@@ -65,7 +65,7 @@ actuators/
 
 ## Code of Conduct
 
-Please be respectful and constructive. See our [Code of Conduct](../CODE_OF_CONDUCT.md) for details.
+Please be respectful and constructive. See our [Code of Conduct](docs/CODE_OF_CONDUCT.md) for details.
 
 ---
 
