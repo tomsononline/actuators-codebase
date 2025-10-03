@@ -1,22 +1,35 @@
-# Sensor Codebase
+# Actuators Codebase
 
-This repository contains example files for a variety of sensors, showing how to set up and operate them using platforms such as Arduino and STM32.
+A public collection of example files for operating various actuators—such as motors, relays, servos, and solenoids—on platforms including Arduino and STM32.
+
+## Purpose
+
+This repository provides simple, well-commented example files to help users integrate actuators into their projects. Each actuator folder contains wiring information, datasheet links, and example code for supported microcontroller platforms.
 
 ## Structure
 
-- `sensors/`: Each sensor has its own folder, with example code for different platforms.
-- `docs/`: Additional documentation and contribution guidelines.
+- `actuators/` — Each actuator has its own folder, with example code for different platforms (`arduino/`, `stm32/`, etc.) and a `notes.md` for wiring and usage.
+- `docs/` — Documentation and contribution guidelines.
 
 ## How to Use
 
-- Browse to the sensor you’re interested in (`sensors/SensorName/`).
-- Pick your platform (`arduino/`, `stm32/`, etc.).
-- Use or adapt the example files for your own project.
+1. Browse to the actuator you’re interested in (`actuators/ActuatorName/`).
+2. Pick your platform (`arduino/`, `stm32/`, etc.).
+3. Review and follow the wiring and setup notes in `notes.md`.
+4. Use or adapt the example files in your own projects.
+
+## Supported Actuators
+
+See [`docs/ACTUATORS.md`](docs/ACTUATORS.md) for a full list of supported actuators and platforms.
 
 ## Contributing
 
-Want to add an example for a new sensor or platform? See [docs/Contributing.md](docs/Contributing.md).
+We welcome contributions! Please see [`docs/Contributing.md`](docs/Contributing.md) for guidelines on adding new actuators or improving existing examples.
 
 ## License
 
 MIT License
+
+---
+
+*Find actuator examples for your next project, or help us expand our collection!*
